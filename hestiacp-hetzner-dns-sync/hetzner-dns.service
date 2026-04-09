@@ -1,0 +1,18 @@
+[Unit]
+Description=HestiaCP → Hetzner DNS Sync Watcher
+After=network-online.target hestia.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/hestia/plugins/hetzner-dns/hetzner-dns-watcher.sh
+Restart=always
+RestartSec=5
+User=root
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=hetzner-dns
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

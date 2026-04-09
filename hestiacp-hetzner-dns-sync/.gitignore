@@ -1,0 +1,5 @@
+config.conf
+*.log
+mapping/
+*.tmp
+.DS_Store
