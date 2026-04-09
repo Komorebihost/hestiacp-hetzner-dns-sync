@@ -1,0 +1,17 @@
+# HestiaCP → Hetzner DNS Plugin
+# /usr/local/hestia/plugins/hetzner-dns/config.conf
+# Permissions: chmod 600 config.conf
+
+# Hetzner Cloud API Token (required)
+# Create at: console.hetzner.com → your project → Security → API Tokens
+# Token must have Read & Write permissions.
+#
+# Single project:
+HETZNER_API_TOKENS="your_token_here"
+#
+# Multiple projects (space-separated):
+# HETZNER_API_TOKENS="token_project1 token_project2"
+# New zones are always created in the FIRST token's project.
+
+# Default TTL for new zones in seconds (86400 = 24 hours)
+DEFAULT_TTL=86400
