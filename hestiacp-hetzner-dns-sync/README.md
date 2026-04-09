@@ -34,7 +34,7 @@ When a DNS record is added, modified, or deleted in HestiaCP, this plugin detect
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Komorebihost/HestiaCP/hestiacp-hetzner-dns-sync
+git clone https://github.com/Komorebihost/hestiacp-hetzner-dns-sync
 cd hestiacp-hetzner-dns-sync
 
 # 2. Copy files to plugin directory
@@ -201,4 +201,4 @@ The above copyright notice and this permission notice shall be included in all c
 ## Contributing
 
 Issues and pull requests are welcome.  
-Repository: [github.com/Komorebihost/HestiaCP](https://github.com/Komorebihost/HestiaCP)
+Repository: [github.com/Komorebihost/hestiacp-hetzner-dns-sync](https://github.com/Komorebihost/hestiacp-hetzner-dns-sync)
