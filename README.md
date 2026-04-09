@@ -1,6 +1,6 @@
 # HestiaCP → Hetzner DNS Sync
 
-Automatically synchronize DNS zones and records from [HestiaCP](https://hestiacp.com) to [Hetzner Cloud DNS](https://www.hetzner.com/dns-console) in real time.
+Automatically synchronize DNS zones and records from [HestiaCP](https://hestiacp.com) to [Hetzner Cloud DNS](https://hetzner.cloud/?ref=BaRCOA7fFexZ) in real time.
 
 When a DNS record is added, modified, or deleted in HestiaCP, this plugin detects the change via `inotifywait` and immediately syncs the zone to Hetzner — no manual intervention required.
 
@@ -212,7 +212,7 @@ rm -rf /usr/local/hestia/plugins/hetzner-dns
 >
 > Use at your own risk. Always keep backups of your DNS configuration before performing bulk sync operations. The authors accept no responsibility for DNS outages, data loss, or misconfiguration resulting from the use of this software.
 >
-> Hetzner Cloud API usage is subject to [Hetzner's Terms of Service](https://www.hetzner.com/legal/terms-and-conditions).
+> Hetzner Cloud API usage is subject to [Hetzner's Terms of Service](https://hetzner.cloud/?ref=BaRCOA7fFexZ).
 
 ---
 
