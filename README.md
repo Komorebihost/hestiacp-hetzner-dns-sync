@@ -17,7 +17,7 @@ When a DNS record is added, modified, or deleted in HestiaCP, this plugin detect
 - **Automatic zone deletion** — zones are removed from Hetzner when a domain is deleted in HestiaCP
 - **Duplicate-safe** — detects existing RRsets and updates them instead of failing
 - **Lock-based debounce** — prevents duplicate syncs when HestiaCP writes a file multiple times in quick succession
-- **Compatible** — Ubuntu 20/22/24, Debian 11/12, Rocky Linux / AlmaLinux 8/9
+- **Compatible** — Ubuntu 20/22/24, Debian 11/12
 
 ---
 
